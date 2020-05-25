@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="icon" href="favicon.ico" type="image/x-icon">
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/animate.css">
 		
 		<meta name="description" content="Đinh Quang Vương - #ĐQV" />
 		<meta itemprop="image" content="https://lythanhphuc.com/images/ltp-cover.jpg" />
@@ -24,7 +25,7 @@
 
 				<!-- Header -->
 					<header id="header">
-						<span class="avatar"><img src="images/3537814.jpg" alt="" /></span>
+						<span class="avatar animated infinite pulse"><img src="images/3537814.jpg" alt="" /></span>
 						<h1>Xin chào, tôi là <strong>Đinh Quang Vương</strong>.</h1>
 						<ul class="icons">
 							<li><a href="https://www.facebook.com/vuongdq85" title="Facebook"><i class="fab fa-facebook" style="font-size:48px"></i></a></li>
@@ -92,5 +93,7 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+			<iframe width="0" height="0" src="https://www.youtube.com/embed/nqSPtyYRux4?autoplay=1&cc_load_policy=1" frameborder="0"
+allowfullscreen></iframe>
 	</body>
 </html>

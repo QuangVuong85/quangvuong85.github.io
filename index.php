@@ -93,7 +93,7 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
-			<iframe width="0" height="0" src="https://www.youtube.com/embed/BTdoNXj-Pgo?autoplay=1&cc_load_policy=1" frameborder="0"
+			<iframe width="0" height="0" src="https://www.youtube.com/embed/jnfPS_AKwtc?&autoplay=1&loop=1&rel=0&showinfo=0&color=white&playlist=jnfPS_AKwtc&cc_load_policy=1" frameborder="0"
 allowfullscreen></iframe>
 	</body>
 </html>

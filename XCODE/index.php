@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>[𝗧𝗘𝗔𝗠 𝗫𝗖𝗢𝗗𝗘]</title>
+	<title>[CC Checker VN]</title>
 	<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.11/css/mdb.min.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -20,9 +20,9 @@ body {
 		<div class="row col-md-12">
 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 <div class="card col-sm-8">
-  <h5 class="card-body h6">CC Checker xD</h5>
+  <h5 class="card-body h6">CC Checker VN</h5>
   <div class="card-body">
-    <center><span>[𝗧𝗘𝗔𝗠 𝗫𝗖𝗢𝗗𝗘]</span></center>
+    <center><span>[CC Checker VN]</span></center>
 <div class="md-form">
 	<div class="col-md-12">
   <textarea type="text" style="text-align: center;" id="lista" class="md-textarea form-control" rows="2"></textarea>
@@ -30,8 +30,8 @@ body {
 </div>
 </div>
 <center>
- <button class="btn btn-primary" style="width: 200px; outline: none;" id="testar" onclick="enviar()" >TESTAR</button>
-  <button class="btn btn-danger" style="width: 200px; outline: none;">PARAR</button>
+ <button class="btn btn-primary" style="width: 200px; outline: none;" id="testar" onclick="enviar()" >START</button>
+  <button class="btn btn-danger" style="width: 200px; outline: none;">END</button>
 </center>
 </div>
             
@@ -40,12 +40,12 @@ body {
 <div class="card col-sm-2">
   <h5 class="card-body h6">Informations:</h5>
   <div class="card-body">
-  	<span>Status:</span><span class="badge badge-secondary"> Aguardando o comando.</span>
+  	<span>Status:</span><span class="badge badge-secondary"> Warning...</span>
 <div class="md-form">
-	<span>Aprovadas:</span>&nbsp<span id="cLive" class="badge badge-success">0</span>
-	<span>Reprovadas:</span>&nbsp<span id="cDie" class="badge badge-danger"> 0</span>
-	<span>Testadas:</span>&nbsp<span id="total" class="badge badge-info">0</span>
-	<span>Carregadas:</span>&nbsp<span id="carregadas" class="badge badge-dark">0</span>
+	<span>Chấp Nhận:</span>&nbsp<span id="cLive" class="badge badge-success">0</span>
+	<span>Từ Chối:</span>&nbsp<span id="cDie" class="badge badge-danger"> 0</span>
+	<span>Kiểm Tra:</span>&nbsp<span id="total" class="badge badge-info">0</span>
+	<span>Tổng:</span>&nbsp<span id="carregadas" class="badge badge-dark">0</span>
 </div>
   </div>
 </div>
@@ -60,7 +60,7 @@ body {
 	<button id="mostra" class="btn btn-primary">SHOW/HIDE</button>
 </div>
   <div class="card-body">
-    <h6 style="font-weight: bold;" class="card-title">Aprovadas - <span  id="cLive2" class="badge badge-success">0</span></h6>
+    <h6 style="font-weight: bold;" class="card-title">Live - <span  id="cLive2" class="badge badge-success">0</span></h6>
     <div id="bode"><span id=".aprovadas" class="aprovadas"></span>
 </div>
   </div>
@@ -78,7 +78,7 @@ body {
 	<button id="mostra2" class="btn btn-primary">SHOW/HIDE</button>
 </div>
   <div class="card-body">
-    <h6 style="font-weight: bold;" class="card-title">Reprovadas - <span id="cDie2" class="badge badge-danger">0</span></h6>
+    <h6 style="font-weight: bold;" class="card-title">Die - <span id="cDie2" class="badge badge-danger">0</span></h6>
     <div id="bode2"><span id=".reprovadas" class="reprovadas"></span>
     </div>
   </div>
@@ -178,7 +178,7 @@ $(document).ready(function(){
 
 
     <div class="footer-copyright text-center py-3">
-      <a href="https://t.me/cyrax0p"> CLICK HERE TO CONTACT US</a>
+      <a href="https://t.me/"> CLICK HERE TO CONTACT US</a>
     </div>
 
 
